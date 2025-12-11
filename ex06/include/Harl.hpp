@@ -6,21 +6,13 @@
 /*   By: ehode <ehode@student.42angouleme.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 20:10:51 by ehode             #+#    #+#             */
-/*   Updated: 2025/11/25 22:03:08 by ehode            ###   ########.fr       */
+/*   Updated: 2025/12/11 15:21:27 by ehode            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef HARL_HPP
 # define HARL_HPP
 # include <string>
-
-typedef enum e_level
-{
-	DEBUG,
-	INFO,
-	WARNING,
-	ERROR
-}			t_level;
 
 class Harl
 {

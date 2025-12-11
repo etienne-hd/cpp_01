@@ -6,7 +6,7 @@
 /*   By: ehode <ehode@student.42angouleme.fr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/25 17:00:01 by ehode             #+#    #+#             */
-/*   Updated: 2025/12/11 14:55:21 by ehode            ###   ########.fr       */
+/*   Updated: 2025/12/11 15:25:05 by ehode            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,8 +44,7 @@ void Harl::error(void)
 
 void Harl::complain(std::string level)
 {
-	int	i;
-
+	size_t	i;
 	std::string levels[4] = {
 		"DEBUG",
 		"INFO",
